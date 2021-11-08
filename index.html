@@ -1,27 +1,53 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Active states</title>
-    </head>
-    <body>
-        
-        <img src="illustration-hero.svg" alt="first image">
-        <h1>
-            Order Summary
-        </h1>
-        <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-        </p>
-   <section .plan>
-        <img src="icon-music.svg" alt="music icon"> 
-        <p><strong>Annual plan</strong><br> $59.99/year</p>
-        <button>change</button>
-   </section>
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-        <br><br>
-        <button>Proceed to Payment </button><br><br>
-        <button>Cancel Order</button>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Order summary card</title>
 
-    </body>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="card">
+         <div class="hero">
+            <img src="illustration-hero.svg">
+         </div>
+          <div class="order">
+            <h1>
+              Order Summary
+            </h1>
+          </div> 
+      
+        <div class="text">
+          <p> 
+          You can now listen to millions of songs, <br>audiobooks, and podcasts on any 
+          device <br> anywhere you like!
+          </p>
+        </div>
+
+        <div class="payment_plan">
+          <img src="icon-music.svg" class="icon">
+          <p> Annual Plan   <br> <small>$59.99/year</small></p>
+          <a href="#" class="change">  Change</a>     
+        </div>
+
+        <div class="btn_1">
+         <button type="submit" class="main_btn">Proceed to Payment</button> 
+        <p class="cancel-order"><a href="#"> Cancel Order </a></p>
+        </div>        
+    </div>
+  
+</body>
 </html>
