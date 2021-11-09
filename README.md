@@ -21,7 +21,7 @@ creating this project was indeed challenging but after great effort from the tea
 ### Links
 
 - Solution URL: [https://github.com/karye10/Active-states.git]
-- Live Site URL: [http://127.0.0.1:5500/index.html]
+- Live Site URL: [group-69-capstoneproject.netlify.app]
 
 ## My process
 
