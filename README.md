@@ -30,6 +30,9 @@ creating this project was indeed challenging but after great effort from the tea
 - Semantic HTML5 markup
 - CSS custom properties
 
+### Deployed with
+-Netlify live link
+
 
 
 
